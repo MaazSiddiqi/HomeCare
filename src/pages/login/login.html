@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/style.css" rel="stylesheet" />
+    <script defer src="./login.js"></script>
+    <title>W5 - Login</title>
+  </head>
+  <body>
+    <secton
+      class="flex relative justify-center items-center h-screen bg-slate-50"
+    >
+      <img
+        src="../../images/wave.svg"
+        alt=""
+        class="absolute bottom-0 left-0 w-screen"
+      />
+      <form
+        class="max-w-md shrink flex flex-col justify-around bg-white grow border-2 border-gray-200 shadow-lg p-10 rounded-3xl space-y-6 z-10"
+        id="sign-up-form"
+      >
+        <h1 class="font-bold text-2xl">Log In</h1>
+
+        <div class="flex flex-col space-y-2">
+          <label for="cli-name" class="font-semibold text-lg"
+            >Clinic Name</label
+          >
+          <input
+            name="cli-name"
+            type="text"
+            class="border-2 p-2 text-gray-700"
+            required
+          />
+        </div>
+
+        <div class="flex flex-col space-y-2">
+          <label for="email" class="font-semibold text-lg">Email</label>
+          <input
+            required
+            name="email"
+            type="email"
+            class="border-2 p-2 text-gray-700"
+          />
+        </div>
+        <div class="flex flex-col space-y-2">
+          <label for="pass" class="font-semibold text-lg">Password</label>
+          <input
+            name="pass"
+            type="password"
+            class="border-2 p-2 text-gray-700"
+            required
+          />
+        </div>
+
+        <button
+          class="w-full p-3 rounded-full bg-yellow-300 hover:scale-105 hover:bg-white hover:shadow-xl active:scale-95 active:shadow-inner transition-all duration-200 font-bold"
+          type="submit"
+        >
+          Login!
+        </button>
+        <div
+          class="p-2 hover:scale-105 hover:bg-white hover:shadow-xl active:scale-95 active:shadow-inner transition-all duration-200"
+        >
+          <a href="../signup/signup.html" class="">
+            <h3 class="text-center font-semibold">
+              Don't have an account? Sign Up!
+            </h3>
+          </a>
+        </div>
+      </form>
+    </secton>
+  </body>
+</html>

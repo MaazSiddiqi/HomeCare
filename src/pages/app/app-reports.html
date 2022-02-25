@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/style.css" rel="stylesheet" />
+    <script defer src="./app.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <nav
+      class="fixed w-full bg-white hover:drop-shadow-lg p-6 transition-all duration-250 z-10"
+    >
+      <ul class="flex justify-between px-36 items-center">
+        <li class="hover:scale-105 active:scale-95 transition-all duration-150">
+          <a
+            href="../app/app.html"
+            class="btn btn-outline border-orange-400 px-12"
+            >Home CARE</a
+          >
+        </li>
+        <li>
+          <div class="flex">
+            <div class="flex items-center space-x-3">
+              <div class="avatar">
+                <div class="w-12 h-12 mask mask-squircle">
+                  <img
+                    src="https://www.w3schools.com/howto/img_avatar.png"
+                    alt="Avatar Tailwind CSS Component"
+                  />
+                </div>
+              </div>
+              <div>
+                <div class="flex justify-center items-center">
+                  <h1 class="font-bold">John Doe</h1>
+                  <div
+                    class="px-3 py-1 flex space-x-2 justify-center items-center rounded-full bg-gradient-to-br from-yellow-300 to-orange-300 scale-75"
+                  >
+                    <h2>Premium</h2>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-6 w-6"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <div class="text-sm opacity-50">Treatment Solutions Clinic</div>
+              </div>
+              <a href="../../index.html" class="btn btn-outline w-fit px-3 py-0"
+                >Sign Out</a
+              >
+            </div>
+            <div class="divider divider-horizontal"></div>
+            <div class="flex justify-center items-center space-x-5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-7 w-7 hover-animation"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+                />
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+              </svg>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-7 w-7 hover-animation"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"
+                />
+              </svg>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div
+      class="flex flex-col w-screen h-screen bg-gradient-to-r from-yellow-200 via-amber-200 to-orange-300 overflow-x-hidden"
+    >
+      <div class="space-y-1 px-20 pt-32 pb-8">
+        <h1 class="text-3xl font-semibold"><b>Hey John!</b></h1>
+        <h2 class="text-xl"><i>How are you doing today?</i></h2>
+      </div>
+
+      <div class="p-9 space-y-4 rounded-t-3xl h-fit grow w-full bg-white">
+        <h1 class="text-center font-bold text-4xl p-4">Dashboard</h1>
+        <div class="flex w-full min-h-[20px] space-x-6">
+          <div class="w-1/5 card px-4 py-6 h-fit">
+            <h1 class="text-center font-semibold text-2xl">Quick Actions</h1>
+            <div class="pt-8">
+              <ul class="menu p-2 rounded-box space-y-2">
+                <li class="rounded-lg">
+                  <a href="./app.html">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                      />
+                    </svg>
+                    Updates
+                  </a>
+                </li>
+                <li class="rounded-lg">
+                  <a href="./app-contact-nurse.html">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                      />
+                    </svg>
+                    Contact Nurse
+                  </a>
+                </li>
+                <li class="rounded-lg">
+                  <a href="./app-meeting-calendar.html">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                      />
+                    </svg>
+                    Meeting Calendar
+                  </a>
+                </li>
+                <li class="rounded-lg">
+                  <a>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                      />
+                    </svg>
+                    Reports
+                  </a>
+                </li>
+                <li class="rounded-lg">
+                  <a href="./app-entertainment.html">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="h-5 w-5"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                      />
+                    </svg>
+                    Entertainment
+                  </a>
+                </li>
+              </ul>
+              <label
+                for="my-modal"
+                class="btn modal-button mt-3 bg-red-300 hover:bg-red-500 active:bg-red-600"
+                >Urgent Booking!</label
+              >
+            </div>
+          </div>
+
+          <div class="w-4/5 card p-6 min-h-[50%] bg-slate-100">
+            <h1 class="text-center font-semibold text-2xl">Reports</h1>
+            <div class="flex w-full h-full justify-center items-center">
+              <div class="card w-full p-10 space-y-3">
+                <label for="key" class="px-4 font-medium text-lg"
+                  >Private Key</label
+                >
+                <div class="flex space-x-3">
+                  <input
+                    type="text"
+                    name="key"
+                    placeholder="Type your key here..."
+                    class="input w-5/6 border-2 border-gray-200 text-lg rounded-full p-6"
+                  />
+                  <button id="priv-key" class="btn btn-primary w-1/6">
+                    Send
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="w-1/5 card p-6 h-fit">
+            <h1 class="text-center font-semibold text-2xl">
+              Medication Tracker
+            </h1>
+            <div class="pt-4">
+              <ul class="p-3 space-y-4">
+                <li class="">
+                  <div class="medication-item flex space-x-4 items-center">
+                    <input
+                      class="checkbox checkbox-secondary checkbox-sm border-2"
+                      type="checkbox"
+                      name="med1"
+                    />
+                    <label for="med1" class="font-medium">Medication 1</label>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="medication-item flex space-x-4 items-center">
+                    <input
+                      class="checkbox checkbox-secondary checkbox-sm border-2"
+                      type="checkbox"
+                      name="med1"
+                    />
+                    <label for="med1" class="font-medium">Medication 2</label>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="medication-item flex space-x-4 items-center">
+                    <input
+                      class="checkbox checkbox-secondary checkbox-sm border-2"
+                      type="checkbox"
+                      name="med1"
+                    />
+                    <label for="med1" class="font-medium">Medication 3</label>
+                  </div>
+                </li>
+                <li class="">
+                  <div class="medication-item flex space-x-4 items-center">
+                    <input
+                      class="checkbox checkbox-secondary checkbox-sm border-2"
+                      type="checkbox"
+                      name="med1"
+                    />
+                    <label for="med1" class="font-medium">Medication 4</label>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <input type="checkbox" id="my-modal" class="modal-toggle" />
+    <div class="modal">
+      <div class="modal-box">
+        <h3 class="font-bold text-lg">Your Appointment is Confirmed!</h3>
+        <p class="py-4">
+          Your slot at Treatment Solutions Clinic with Dr. Katy is booked for
+          27-Feb, 2022.
+        </p>
+        <div class="modal-action">
+          <label for="my-modal" class="btn">Done</label>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

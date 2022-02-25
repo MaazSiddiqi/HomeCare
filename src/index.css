@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .card {
+    @apply rounded-3xl shadow-xl border-2;
+  }
+
+  .btn {
+    @apply w-full p-3 rounded-full hover:scale-105 hover:shadow-xl active:scale-95 active:shadow-inner transition-all duration-200 font-bold;
+  }
+
+  .hover-animation {
+    @apply hover:scale-105 hover:shadow-xl active:scale-95 active:shadow-inner transition-all duration-200;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
